@@ -30,7 +30,7 @@ body{
         height: 200px;
     }
     &__image {
-        margin-top: 10px;
+        margin-top: 20px;
         width: 200px;
         height: 200px;
         border-radius: 100px;
@@ -52,6 +52,7 @@ body{
         color: $ranking_text_color;
     }
     &__details {
+        margin-top:20px;
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -60,6 +61,7 @@ body{
     &__name {
         margin-top: 8px;
         text-align: center;
+        font-weight: 700;
         color: $main_text_color;
     }
     &__extra {
